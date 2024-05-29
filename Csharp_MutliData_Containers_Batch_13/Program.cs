@@ -96,11 +96,14 @@ namespace Csharp_MutliData_Containers_Batch_13
             arrayList.Add(false);  // Add new value
             arrayList.Add(false);  // Add new value
 
-            int range = arrayList.Count;
+            int range = arrayList.Count; //6
 
-            arrayList.Add("Madras");
-
-            int range1 = arrayList.Count;
+            arrayList.Add("Madras");   //7
+            arrayList.Add("Madras");   //8
+            arrayList.Add("Madras");   //9
+            
+            //9
+            int range1 = arrayList.Count;  //9
 
 
 
